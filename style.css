@@ -1,16 +1,16 @@
 body {
-  background-image: linear-gradient(135deg, #FAB2FF 10%, #bf79e2 100%);
+  background-image: linear-gradient(135deg, #7985e2 10%, #7985e2 100%);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   font-family: "Open Sans", sans-serif;
-  color: #333333;
+  color: #202020;
 }
 
 .box-form {
   margin: 0 auto;
   width: 80%;
-  background: rgb(250, 198, 255);
+  background: rgb(227, 198, 255);
   border-radius: 10px;
   overflow: hidden;
   display: flex;
@@ -41,7 +41,7 @@ body {
   padding: 30px;
   width: 100%;
   height: 100%;
-  background: #e066ffad;
+  background: #a866ffad;
   overflow: hidden;
   box-sizing: border-box;
 }
@@ -66,7 +66,7 @@ body {
   box-shadow: 0 4px 6px 1px #042d4657;
 }
 .box-form .left .overlay span a:last-child {
-  background: #c438e0;
+  background: #8438e0;
   margin-left: 30px;
 }
 .box-form .right {
@@ -118,7 +118,7 @@ body {
   border: 0;
   outline: 0;
   box-shadow: 0px 4px 20px 0px #111e57a6;
-  background-image: linear-gradient(135deg, #dc60f3 10%, #20086f 100%);
+  background-image: linear-gradient(135deg, #9d60f3 10%, #20086f 100%);
 }
 
 label {
