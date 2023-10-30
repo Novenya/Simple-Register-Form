@@ -1,10 +1,10 @@
 body {
-  background-image: linear-gradient(135deg, #7985e2 10%, #7985e2 100%);
+  background-image: linear-gradient(135deg, #FAB2FF 10%, #661586 100%);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  font-family: "Open Sans", sans-serif;
-  color: #202020;
+  font-family: "Courier New", sans-serif;
+  color: #333333;
 }
 
 .box-form {
@@ -52,9 +52,15 @@ body {
   margin-top: 40px;
   margin-bottom: 20px;
 }
-.box-form .left .overlay span p {
-  margin-top: 35px;
+.box-form .left .overlay p{
+  margin-top: 30px;
+  color: #0c0c0c;
   font-weight: 900;
+}
+.box-form .left .overlay span p {
+  margin-top: 30px;
+  font-size: 1.5vmax;
+  color: #0c0c0c;
 }
 .box-form .left .overlay span a {
   background: #570894;
@@ -70,7 +76,7 @@ body {
   margin-left: 30px;
 }
 .box-form .right {
-  padding: 40px;
+  padding: 80px;
   overflow: hidden;
 }
 @media (max-width: 980px) {
@@ -81,6 +87,17 @@ body {
 .box-form .right h1 {
   font-size: 6vmax;
   line-height: 0;
+  margin-left: 1px;
+ 
+}
+.box-form .right .overlay a {
+  background: #570894;
+  color: #FFFFFF;
+  margin-top: 10px;
+  padding: 14px 50px;
+  border-radius: 100px;
+  display: inline-block;
+  box-shadow: 0 3px 6px 1px #042d4657; 
 }
 .box-form .right p {
   font-size: 16px;
