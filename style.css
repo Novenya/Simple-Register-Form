@@ -16,8 +16,13 @@ body {
   display: flex;
   flex: 1 1 100%;
   align-items: stretch;
+
+  justify-content: space-between;
+  box-shadow: 0 0 20px 6px #7b0404;
+
   justify-content: center;
   box-shadow: 0 0 20px 6px #0e0e11;
+
 }
 @media (max-width: 980px) {
   .box-form {
@@ -41,7 +46,11 @@ body {
   padding: 30px;
   width: 100%;
   height: 100%;
+
+  background: #0f1c92ad;
+
   background: #a866ffad;
+
   overflow: hidden;
   box-sizing: border-box;
 }
@@ -101,7 +110,11 @@ body {
 }
 .box-form .right p {
   font-size: 16px;
+
+  color: #6c9b14;
+
   color: #b40e0e;
+
 }
 .box-form .right .inputs {
   overflow: hidden;
