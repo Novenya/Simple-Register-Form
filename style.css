@@ -10,14 +10,14 @@ body {
 .box-form {
   margin: 0 auto;
   width: 80%;
-  background: rgb(250, 198, 255);
+  background: rgb(227, 198, 255);
   border-radius: 10px;
   overflow: hidden;
   display: flex;
   flex: 1 1 100%;
   align-items: stretch;
-  justify-content: space-between;
-  box-shadow: 0 0 20px 6px #04047b;
+  justify-content: center;
+  box-shadow: 0 0 20px 6px #0e0e11;
 }
 @media (max-width: 980px) {
   .box-form {
@@ -31,7 +31,7 @@ body {
   height: auto;
 }
 .box-form .left {
-  color: #FFFFFF;
+  color: #e4d8d8;
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url("https://i.pinimg.com/736x/5d/73/ea/5d73eaabb25e3805de1f8cdea7df4a42--tumblr-backgrounds-iphone-phone-wallpapers-iphone-wallaper-tumblr.jpg");
@@ -41,7 +41,7 @@ body {
   padding: 30px;
   width: 100%;
   height: 100%;
-  background: #e066ffad;
+  background: #a866ffad;
   overflow: hidden;
   box-sizing: border-box;
 }
@@ -61,7 +61,6 @@ body {
   margin-top: 30px;
   font-size: 1.5vmax;
   color: #0c0c0c;
-  font-weight: 900;
 }
 .box-form .left .overlay span a {
   background: #570894;
@@ -70,10 +69,10 @@ body {
   padding: 14px 50px;
   border-radius: 100px;
   display: inline-block;
-  box-shadow: 0 3px 6px 1px #042d4657;
+  box-shadow: 0 4px 6px 1px #042d4657;
 }
 .box-form .left .overlay span a:last-child {
-  background: #c84ce1;
+  background: #8438e0;
   margin-left: 30px;
 }
 .box-form .right {
@@ -85,7 +84,7 @@ body {
     width: 100%;
   }
 }
-.box-form .right h5 {
+.box-form .right h1 {
   font-size: 6vmax;
   line-height: 0;
   margin-left: 1px;
@@ -102,7 +101,7 @@ body {
 }
 .box-form .right p {
   font-size: 16px;
-  color: #860404;
+  color: #b40e0e;
 }
 .box-form .right .inputs {
   overflow: hidden;
@@ -136,7 +135,7 @@ body {
   border: 0;
   outline: 0;
   box-shadow: 0px 4px 20px 0px #111e57a6;
-  background-image: linear-gradient(135deg, #dc60f3 10%, #20086f 100%);
+  background-image: linear-gradient(135deg, #9d60f3 10%, #20086f 100%);
 }
 
 label {
@@ -162,11 +161,11 @@ label:hover::before {
   content: ' \f00c';
   color: #fff;
   cursor: pointer;
-  background: #8070f5;
+  background: hsl(247, 51%, 55%);
 }
 
 label:hover::before .text-checkbox {
-  background: #8b70f5;
+  background: #7b68ca;
 }
 
 label span.text-checkbox {
