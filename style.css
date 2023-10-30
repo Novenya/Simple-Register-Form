@@ -17,7 +17,7 @@ body {
   flex: 1 1 100%;
   align-items: stretch;
   justify-content: space-between;
-  box-shadow: 0 0 20px 6px #04047b;
+  box-shadow: 0 0 20px 6px #7b0404;
 }
 @media (max-width: 980px) {
   .box-form {
@@ -41,7 +41,7 @@ body {
   padding: 30px;
   width: 100%;
   height: 100%;
-  background: #e066ffad;
+  background: #0f1c92ad;
   overflow: hidden;
   box-sizing: border-box;
 }
@@ -84,7 +84,7 @@ body {
 }
 .box-form .right p {
   font-size: 16px;
-  color: #860404;
+  color: #6c9b14;
 }
 .box-form .right .inputs {
   overflow: hidden;
